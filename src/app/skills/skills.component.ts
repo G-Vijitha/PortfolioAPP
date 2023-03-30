@@ -9,7 +9,7 @@ import { Skill } from '../models/models';
 export class SkillsComponent implements OnInit {
   skills: Skill[] = [
     {
-      name: 'Angular, Angular Material',
+      name: 'Angular, React',
       level: 'Intermediate',
       rating: 70,
     },
@@ -30,7 +30,7 @@ export class SkillsComponent implements OnInit {
     },
     {
       name: 'C,C++',
-      level: 'Intermidiate',
+      level: 'Proficient',
       rating: 70,
     },
   ];
