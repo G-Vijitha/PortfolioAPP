@@ -14,8 +14,8 @@ export class ProjectsComponent implements OnInit {
       description: [
         'Created a web responsive Recipe Book app.',
       ],
-      Websitelink: '',
-      GitHub_CodeLink: ''
+      Websitelink: 'https://ng-course-recipe-book-fab45.web.app/',
+      GitHub_CodeLink: 'https://github.com/G-Vijitha/RecipeBook'
     },
     {
       title: 'Angular Portfolio App',
@@ -34,16 +34,7 @@ export class ProjectsComponent implements OnInit {
       ],
       Websitelink: "https://vijithaportfolio.netlify.app/",
       GitHub_CodeLink: 'https://github.com/G-Vijitha/portfolio'
-    },
-    {
-      title: 'Pharmacy Store',
-      technologies: 'Java, MySQL, HTML,',
-      description: [
-        'Web-based order management app',
-      ],
-      Websitelink: '',
-      GitHub_CodeLink: ''
-    },
+    },    
     {
       title: 'English to Minion language app',
       technologies: 'HTML, Javascript',
@@ -62,7 +53,15 @@ export class ProjectsComponent implements OnInit {
       Websitelink: 'https://replit.com/@VijithaReddyG/Quizgame1-1?embed=1&output=1',
       GitHub_CodeLink: 'https://github.com/G-Vijitha/Quizgame1'
     },
-    
+    {
+      title: 'Pharmacy Store',
+      technologies: 'Java, MySQL, HTML,',
+      description: [
+        'Web-based order management app',
+      ],
+      Websitelink: '',
+      GitHub_CodeLink: ''
+    },
     
   ];
   constructor() {}
