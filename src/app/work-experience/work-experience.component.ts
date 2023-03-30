@@ -13,7 +13,7 @@ export class WorkExperienceComponent implements OnInit {
       company: 'NTT DATA',
       duration: 'Aug 2021 - Now',
       description: [
-        'Working as a Full Stack Developer.',
+        'Full Stack Developer.',
         // 'Working to develop new technologies to make life easier.',
       ],
     },    
