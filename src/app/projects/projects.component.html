@@ -12,5 +12,15 @@
         <ul *ngFor="let desc of project.description">
             <li>{{desc}}</li>
         </ul>
+        <h3>
+            <span>Websitelink: </span>
+            <!-- <span>{{project.Websitelink}}</span> -->
+            <a href={{project.Websitelink}} style="color: violet;">Click Here</a>
+        </h3>
+        <h3>
+            <span>GitHub Code Link: </span>
+            <!-- <span><a href={{project.GitHub_CodeLink}}></a></span> -->
+            <a href={{project.GitHub_CodeLink}} style="color: violet;">Click Here</a>
+        </h3>
     </section>
 </div>

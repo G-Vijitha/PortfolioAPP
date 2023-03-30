@@ -14,6 +14,8 @@ export class ProjectsComponent implements OnInit {
       description: [
         'Created a web responsive Recipe Book app.',
       ],
+      Websitelink: '',
+      GitHub_CodeLink: ''
     },
     {
       title: 'Angular Portfolio App',
@@ -21,27 +23,8 @@ export class ProjectsComponent implements OnInit {
       description: [
         'Responsive Portfolio Web project',
       ],
-    },
-    {
-      title: 'Pharmacy Store',
-      technologies: 'Java, MySQL, HTML,',
-      description: [
-        'Web-based order management app',
-      ],
-    },
-    {
-      title: 'English to Minion language app',
-      technologies: 'HTML, Javascript',
-      description: [
-        'Translator to convert your text from English to Minion language',
-      ],
-    },
-    {
-      title: 'Fun Quiz Game about Animals',
-      technologies: 'HTML, JS',
-      description: [
-        'Console based Quiz game',
-      ],
+      Websitelink: 'https://portfolio-vg.netlify.app/',
+      GitHub_CodeLink: 'https://github.com/G-Vijitha/PortfolioAPP'
     },
     {
       title: 'React-Portfolio App',
@@ -49,7 +32,37 @@ export class ProjectsComponent implements OnInit {
       description: [
         'Web based portfolio app',
       ],
+      Websitelink: "https://vijithaportfolio.netlify.app/",
+      GitHub_CodeLink: 'https://github.com/G-Vijitha/portfolio'
     },
+    {
+      title: 'Pharmacy Store',
+      technologies: 'Java, MySQL, HTML,',
+      description: [
+        'Web-based order management app',
+      ],
+      Websitelink: '',
+      GitHub_CodeLink: ''
+    },
+    {
+      title: 'English to Minion language app',
+      technologies: 'HTML, Javascript',
+      description: [
+        'Translator to convert your text from English to Minion language',
+      ],
+      Websitelink: 'https://minionstalktranslation.netlify.app/',
+      GitHub_CodeLink: 'https://github.com/G-Vijitha/banana-speak'
+    },
+    {
+      title: 'Fun Quiz Game about Animals',
+      technologies: 'HTML, JS',
+      description: [
+        'Console based Quiz game',
+      ],
+      Websitelink: 'https://replit.com/@VijithaReddyG/Quizgame1-1?embed=1&output=1',
+      GitHub_CodeLink: 'https://github.com/G-Vijitha/Quizgame1'
+    },
+    
     
   ];
   constructor() {}

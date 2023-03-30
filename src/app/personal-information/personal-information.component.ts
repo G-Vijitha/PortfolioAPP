@@ -11,7 +11,7 @@ export class PersonalInformationComponent implements OnInit {
     ['DOB', '18/01/2000'],
     ['Work Exp', '2 Years'],
     ['Education', 'B.Tech (2021)'],
-    ['Interests', 'Exploring New Technology'],
+    ['Interests', 'Playing Badminton'],
   ];
 
   aboutMe: string[] = [

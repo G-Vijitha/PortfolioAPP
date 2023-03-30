@@ -22,4 +22,6 @@ export interface Project {
   title: string;
   technologies: string;
   description: string[];
+  Websitelink: string;
+  GitHub_CodeLink: string
 }
